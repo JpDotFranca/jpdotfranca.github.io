@@ -2,81 +2,77 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'JpDotFranca', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['jpdotfranca.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'JpDotFranca',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.github.io',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    youtube: 'JpDotFranca',
+    medium: 'JpDotFranca',
+    dev: '',
+    stackoverflow: '20514018/JpDotFranca', // format: userid/username
+    website: '',
+    phone: '+55 51 98536-8933',
+    email: 'JpDotFranca@gmail.com',
   },
   resume: {
-    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://drive.google.com/file/d/1pwBfjHJ9JDo1Wyt6_dJkCeJlVYNJCwY1/view?usp=share_link.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    '.NET',
+    'Azure',
+    'Azure Service Bus',
+    'SQL Server',
+    'Angular',
     'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Javascript',
+    'HTML/CSS'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Safe2Pay Intermediação de Pagamentos',
+      position: '.NET Developer',
+      from: 'Setembro 2020',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://safe2pay.com.br/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Safeweb Segurança da Informação',
+      position: '.NET Developer',
+      from: 'Novembro 2017',
+      to: 'Setembro 2020',
+      companyLink: 'https://safeweb.com.br/',
     },
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'PUCRS',
+      degree: 'Graduação Sistemas de Informação',
+      from: '2016',
+      to: '2021',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'UNISINOS',
+      degree: 'Graduação Análise e Desenvolvimento de Sistemas (incompleto)',
+      from: '2015',
+      to: '2016',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'jpdotfranca', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -88,11 +84,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'halloween',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
