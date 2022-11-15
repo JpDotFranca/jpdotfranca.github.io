@@ -49,7 +49,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`JpDotFranca ${profile.name && ` | ${profile.name}`}`}
           />
           <meta name="twitter:description" content={profile.bio} />
           <meta name="twitter:image" content={profile.avatar} />
