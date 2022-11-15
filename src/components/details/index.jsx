@@ -84,14 +84,14 @@ const Details = ({ profile, loading, social, github }) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn className="mr-2" />}
-                  title="Based in:"
+                  title="Endereço:"
                   value={profile.location}
                 />
               )}
               {profile.company && (
                 <ListItem
                   icon={<FaBuilding className="mr-2" />}
-                  title="Company:"
+                  title="Empresa:"
                   value={profile.company}
                   link={
                     isCompanyMention(profile.company.trim())
@@ -189,7 +189,7 @@ const Details = ({ profile, loading, social, github }) => {
               {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill className="mr-2" />}
-                  title="Phone:"
+                  title="Telefone:"
                   value={social.phone}
                   link={`tel:${social.phone}`}
                 />
