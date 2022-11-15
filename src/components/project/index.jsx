@@ -144,7 +144,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       skeleton({ width: 'w-28', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        My Projects
+                        Meus Projetos
                       </span>
                     )}
                   </h5>
@@ -157,7 +157,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       rel="noreferrer"
                       className="text-base-content opacity-50"
                     >
-                      See All
+                      Ver tudo
                     </a>
                   )}
                 </div>
